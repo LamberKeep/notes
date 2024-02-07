@@ -11,6 +11,8 @@
 | inkscape | vector graphics editor |
 | blender | 3D graphics editor |
 | sweet home | interior design editor |
+| obsidian | the private and flexible writing app that adapts to the way you think |
+| logseq | a privacy-first, open-source platform for knowledge management and collaboration |
 ## MEDIA
 | name | description |
 | ---- | ---- |
@@ -48,13 +50,14 @@
 | sshch | ssh connection manager |
 | urn | simple split tracker |
 | llanfair | speedrun timer |
-## PIP (PYTHON)
+## Others
+### PIP (PYTHON)
 | name | description |
 | ---- | ---- |
 | pywal | tool that generates a color palette from the dominant colors in an image |
 | anicli-ru | script for searching and watching anime from the terminal with Russia voice acting or subtitles for linux system, written in python |
 | frogmouth | a Markdown viewer / browser for your terminal, built with Textual |
-## CARGO (RUST)
+### CARGO (RUST)
 | name | description |
 | ---- | ---- |
 | genpass | password generator |  
