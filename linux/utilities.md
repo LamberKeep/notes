@@ -58,7 +58,7 @@
 | anicli-ru | script for searching and watching anime from the terminal with Russia voice acting or subtitles for linux system, written in python |
 | frogmouth | a Markdown viewer / browser for your terminal, built with Textual |
 ### CARGO (RUST)
-| name | description |
-| ---- | ---- |
-| genpass | password generator |  
-| livesplit-one | timer program for speedrunners |  
+| name          | description                    |
+| ------------- | ------------------------------ |
+| genpass       | password generator             |
+| livesplit-one | timer program for speedrunners |
