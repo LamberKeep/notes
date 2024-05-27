@@ -79,3 +79,11 @@ sudo dmidecode
 ```shell
 sudo hdparm -i /dev/sdX
 ```
+## Get SMART support information
+```shell
+sudo smartctl -i /dev/sda
+```
+## Get SMART information
+```shell
+sudo smartctl -a /dev/sda
+```
