@@ -1,46 +1,55 @@
 # Pacman
 ## Tips and tricks
-### Remove all unnecessary dependencies
+Remove all unnecessary dependencies:
 ```shell
 pacman -Rs $(pacman -Qdtq)
 ```
-### Removing unused packages (orphans)
+Removing unused packages (orphans):
 ```shell
 pacman -Qdtq | pacman -Rns
 ```
-### Detecting more unneeded packages
+
+Detecting more unneeded packages:
 ```shell
 pacman -Qqd | pacman -Rsu --print -
 ```
-### Browse all installed packages with an instant preview of each package (with `fzf`)
+
+Browse all installed packages with an instant preview of each package (with `fzf`):
 ```shell
 pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'
 ```
-### Update package index
+
+Update package index:
 ```shell
 pacman -Sy
 ```
-### Install pacman
+
+Install pacman:
 ```shell
 pacman -S pacman
 ```
-### Install package
+
+Install a package:
 ```shell
 pacman -S <package>
 ```
-### Update package
+
+Update package:
 ```shell
 pacman -Syu <package>
 ```
-### Remove package
+
+Remove package:
 ```shell
 pacman -R <package>
 ```
-### Search package
+
+Search package:
 ```shell
 pacman -Ss <package>
 ```
-### Display package information
+
+Display package information:
 ```shell
 pacman -Si <package>
 ```

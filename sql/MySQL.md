@@ -1,16 +1,16 @@
 ## MySQL
 
 ## Command Line
-### Export database
+Export database:
 ```shell
 mysqldump -u username -p database_name > data-dump.sql`
 ```
 ## Queries
-### Create new database
+Create new database:
 ```sql
 CREATE DATABASE menagerie;
 ```
-### Create new user with password
+Create new user with password:
 ```sql
 CREATE USER 'username'@'host' IDENTIFIED WITH authentication_plugin BY 'password';
 ```

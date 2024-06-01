@@ -1,6 +1,5 @@
 # What is it?
 Linux and code reference notes collection with basic, tips and formatted man pages.
-
 ## Who might benefit from this?
 First of all, this may be useful to people who have just started learning Linux and its commands.
 
