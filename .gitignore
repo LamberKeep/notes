@@ -1,2 +1,4 @@
 # Editors folders
 .obsidian/
+.vscode
+.idea
